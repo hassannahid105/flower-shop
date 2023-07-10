@@ -145,3 +145,19 @@ section {
   width: 80%;
   margin: 22px auto;
 }
+
+/* !birthday  style */
+.birthday__des {
+  max-width: 40%;
+  text-align: center;
+  margin: 24px auto;
+}
+.birthday__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ! latest update */
+.latest__deal {
+  background-image: url();
+}
