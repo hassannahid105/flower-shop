@@ -158,6 +158,17 @@ section {
   justify-content: space-between;
 }
 /* ! latest update */
-.latest__deal {
-  background-image: url();
+.latest__container {
+  background-image: url("../images/latestdeal.png");
+  padding: 100px 0;
+}
+
+.latest__container input[type="email"] {
+  padding: 10px 80px;
+  text-align: center;
+}
+.latest__container input[type="submit"] {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
