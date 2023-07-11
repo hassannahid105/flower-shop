@@ -14,16 +14,20 @@ h3 {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
+  margin-bottom: 24px;
 }
 p {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
-  line-height: 30px;
 }
 a {
   text-decoration: none;
   color: #fff;
   font-family: "Poppins", sans-serif;
+}
+section {
+  max-width: 1440px;
+  margin: 130px auto;
 }
 .btn {
   border-radius: 8px;
@@ -32,12 +36,15 @@ a {
   padding: 12px 43px;
   font-size: 20px;
 }
-section {
-  max-width: 1440px;
-  margin: 130px auto;
-}
+
 .full__width {
   max-width: 100vw;
+}
+.pra__shared {
+  max-width: 40%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  line-height: 30px;
 }
 /* ! header style */
 .header {
@@ -70,14 +77,6 @@ section {
   max-width: 500px;
 }
 /* ! feature section */
-.feature__heading {
-  margin-bottom: 24px;
-}
-.feature__des {
-  max-width: 40%;
-  margin: 0 auto;
-  margin-bottom: 24px;
-}
 .feature__items {
   display: flex;
   align-items: center;
@@ -150,11 +149,6 @@ section {
   font-family: "Poppins", sans-serif;
 }
 /* !birthday  style */
-.birthday__des {
-  max-width: 40%;
-  text-align: center;
-  margin: 24px auto;
-}
 .birthday__items {
   display: flex;
   align-items: center;
@@ -186,6 +180,7 @@ form {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 /* ! footer  */
 footer {
@@ -202,11 +197,7 @@ footer {
 }
 
 .footer__des {
-  max-width: 50%;
-  margin: 0 auto;
   color: rgba(255, 255, 255, 0.9);
-  line-height: 30px;
-  margin-bottom: 30px;
 }
 
 .copy__right {
